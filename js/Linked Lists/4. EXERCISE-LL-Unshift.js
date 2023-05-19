@@ -89,8 +89,8 @@ class LinkedList {
 		} else {
 			newNode.next = this.head;
 			this.head = newNode;
-			this.length++;
 		}
+		this.length++;
 		return this;
 	}
 	/////////////////////////////////
